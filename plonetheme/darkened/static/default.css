@@ -1,0 +1,229 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+#breadcrumbs-home a,
+#footer a:link,
+#content a:link,
+dl.portlet a:link{
+    color: #FE4E00;
+    border-bottom: 0.1em solid #FE4E00;
+}
+
+#content a:hover,
+dl.portlet a:hover{
+    color: #FE4E00 !important;
+    border-bottom: 0px;
+}
+#footer a:visited,
+#content a:visited,
+dl.portlet a:visited {
+    color: #7e2600;
+    border-bottom: 0.1em solid #7e2600;
+}
+
+dl.portlet dt,
+div.portletAssignments div.portletHeader{
+	background: url("images/img3.gif") repeat-x scroll left bottom #000000;
+}
+dl.portlet dt a:link,
+dl.portlet dt a:visited,
+dl.portlet dt a:hover{
+    color: #FE4E00;
+}
+.ploneCalendar .weekdays th {
+    background-color: #333;
+}
+.ploneCalendar .todaynoevent {
+    border: 2px solid #333;
+}
+
+#portal-personaltools-wrapper{
+	position:relative;
+	bottom:40px;
+}
+
+dl.actionMenu.activated dd {
+    position: absolute;
+    top: 18px;
+}
+
+#portal-personaltools-wrapper a{
+	background:none !important;
+}
+
+#portal-personaltools dd a,
+#portal-personaltools dt a{
+    color:#FE4E00;
+	
+}
+#portal-personaltools dd a:hover,
+#portal-personaltools dt a:hover{
+    color:#000;
+    background-color:#FE4E00 !important;
+}
+
+#portal-personaltools dt,
+#portal-personaltools dd,
+#portal-personaltools dl,
+#portal-personaltools,
+div.managePortletsLink,
+a.managePortletsFallback{
+    background-color:#000;
+}
+
+#portal-searchbox input{
+	display:block;
+}
+
+#portal-searchbox {
+    float: none;
+	margin-top:20px;
+}
+/**********************************************************************/
+body {
+	background: #000000;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #E7E7E7;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+}
+
+h1 { font-size: 34px; }
+
+h2 {
+	margin-bottom: 10px;
+	padding: 0 0 22px 0;
+	font-size: 24px;
+	background: #000000 url(images/img3.gif) repeat-x left bottom;
+}
+
+h3 {
+	padding: 0 0 22px 0;
+	font-size: 13px;
+	background: #000000 url(images/img3.gif) repeat-x left bottom;
+}
+
+p {
+	margin-top: 0;
+	text-align: justify;
+	line-height: 160%;
+}
+
+a {
+	color: #FE4E00;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list li {
+	padding: 5px 0;
+	background: url(images/img5.gif) repeat-x;
+}
+
+.list li.first {
+	background: none;
+}
+
+/* Header */
+
+#header {
+	width: 681px;
+    margin: 40px auto 0;
+    padding: 0 0 0 13px;
+	height: 90px;
+	background: url(images/img1.gif) repeat-x left bottom;
+}
+
+#header h1 {
+	float: left;
+}
+
+#header h2 {
+	display: none;
+}
+
+#header ul {
+	float: right;
+	margin: 0;
+	padding: 10px 0 0 0;
+	list-style: none;
+}
+
+#header li {
+	display: inline;
+}
+
+#header a {
+	display: block;
+	float: left;
+	padding: 0 14px 0 20px;
+	background: url(images/img2.gif) no-repeat left center;
+	text-decoration: none;
+	font: bold 12px Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+#header .first a {
+	background: none;
+}
+
+/* Content */
+
+#wrapper-content {
+	width: 694px;
+	margin: 0 auto;
+}
+
+#colOne {
+	float: left;
+	width: 179px;
+	padding: 0 0 0 21px;
+}
+
+#colOne h3 {
+	margin-top: 14px;
+}
+
+#colTwo {
+    float: right;
+    padding: 0 0 0 0;
+    width: 470px;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 694px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+}
+
+#footer p {
+	padding: 20px 0 0 0;
+	background: url(images/img4.gif) repeat-x;
+	text-align: center;
+	color: #8A8A8A;
+}
